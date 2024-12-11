@@ -3,6 +3,8 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, balanced_accuracy_score
 
+
+print("Start")
 # Load and prepare the dataset
 iris = pd.read_csv("iris.csv")
 X_iris = iris.drop("variety", axis=1)
